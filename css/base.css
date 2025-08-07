@@ -183,3 +183,43 @@ footer{
     resize: vertical;
     min-height: 50px;
 }
+
+.submitbotao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.submitbotao:hover{
+
+    background-color: #00274C;
+    color: white;
+    transform: translatey(-2px);
+}
+
+@media (max-with: 768px){
+
+.contatoPagina{
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.formularioContainer{
+
+    width: 100%;
+    max-width: 100%;
+    padding: 0%;
+}
+
+}
